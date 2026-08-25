@@ -1,0 +1,15 @@
+{
+    "name": "BRED — Brussels Education & Development",
+    "short_name": "BRED",
+    "start_url": "/",
+    "display": "browser",
+    "background_color": "#ffffff",
+    "theme_color": "#082f73",
+    "icons": [
+        {
+            "src": "assets/images/branding/logo-bred-favicon.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        }
+    ]
+}
