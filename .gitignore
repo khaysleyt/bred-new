@@ -1,1 +1,4 @@
 .vs/
+config/*.local.php
+logs/contact.log
+diagnostics/ovh-php-check.php

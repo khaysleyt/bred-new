@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="nl" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Contact | BRED — Brussels Education &amp; Development</title>
+    <meta name="description" content="Neem contact op met BRED in Brussel over onderwijs, inclusie, Europese projecten, mobiliteit of STEM.">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="https://edubrussels.org/nl/contact/">
+    <link rel="alternate" hreflang="fr" href="https://edubrussels.org/contact/">
+    <link rel="alternate" hreflang="en" href="https://edubrussels.org/en/contact/">
+    <link rel="alternate" hreflang="nl" href="https://edubrussels.org/nl/contact/">
+    <link rel="alternate" hreflang="x-default" href="https://edubrussels.org/contact/">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" type="image/png" sizes="64x64" href="/bred-test/assets/images/branding/logo-bred-favicon.png">
+    <link rel="manifest" href="/bred-test/site.webmanifest">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="nl_BE">
+    <meta property="og:title" content="Contact | BRED — Brussels Education &amp; Development">
+    <meta property="og:description" content="Ga met BRED in gesprek over onderwijs, inclusie, Europese projecten en STEM.">
+    <meta property="og:url" content="https://edubrussels.org/nl/contact/">
+    <meta property="og:image" content="https://edubrussels.org/assets/images/branding/logo-bred-horizontal.png">
+    <meta property="og:image:alt" content="Logo de BRED — Brussels Education &amp; Development">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="/bred-test/css/style.css">
+</head>
+<body class="contact-page">
+    <a class="skip-link" href="#main-content">Ga naar de hoofdinhoud</a>
+    <header class="site-header" data-header>
+        <div class="header-inner container">
+            <a class="brand" href="/bred-test/nl/" aria-label="BRED — Home"><img src="/bred-test/assets/images/branding/logo-bred-horizontal.png" width="360" height="120" alt="BRED — Brussels Education &amp; Development"></a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Menu openen" data-open-label="Menu openen" data-close-label="Menu sluiten" data-menu-toggle><span aria-hidden="true"></span><span aria-hidden="true"></span></button>
+            <nav class="primary-navigation" id="primary-navigation" aria-label="Hoofdnavigatie" data-navigation>
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="/bred-test/nl/">Home</a></li>
+                    <li><a class="nav-link" href="/bred-test/nl/over-ons/">Over ons</a></li>
+                    <li><a class="nav-link" href="/bred-test/nl/team/">Team</a></li>
+                    <li><a class="nav-link" href="/bred-test/nl/projecten/">Projecten</a></li>
+                    <li><a class="nav-link is-active" href="/bred-test/nl/contact/" aria-current="page">Contact</a></li>
+                </ul>
+                <nav class="language-switcher" aria-label="Taal kiezen"><a href="/bred-test/contact/" lang="fr" hreflang="fr">FR</a><a href="/bred-test/en/contact/" lang="en" hreflang="en">EN</a><a href="/bred-test/nl/contact/" lang="nl" hreflang="nl" aria-current="true">NL</a></nav>
+                <a class="button button-primary nav-cta" href="#contact-form">Schrijf ons <span class="button-arrow" aria-hidden="true">↓</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="contact-hero" aria-labelledby="contact-page-title">
+            <div class="contact-hero-path" aria-hidden="true"><svg viewBox="0 0 1440 420" preserveAspectRatio="none"><path data-contact-trajectory d="M-60 320 C 245 88, 430 390, 740 198 S 1115 75, 1510 230"></path></svg></div>
+            <div class="container contact-hero-inner">
+                <p class="contact-eyebrow" data-contact-intro>Contact</p>
+                <h1 id="contact-page-title" data-contact-intro>Een idee begint met<br><span>een gesprek.</span></h1>
+                <p data-contact-intro>Een vraag over onze werking, een samenwerking of een project? Schrijf het BRED-team en start het gesprek.</p>
+            </div>
+        </section>
+
+        <section class="contact-workspace" aria-labelledby="form-title">
+            <div class="container contact-layout">
+                <div class="contact-form-column" data-contact-reveal>
+                    <div class="form-heading"><p>Je bericht</p><h2 id="form-title">Vertel ons wat je hier brengt.</h2><p>Velden met een sterretje zijn verplicht.</p></div>
+                    <form class="contact-form" id="contact-form" action="/bred-test/api/contact.php" method="post" enctype="multipart/form-data" novalidate data-contact-form>
+                        <div class="honeypot" aria-hidden="true" inert><label for="website">Laat dit veld leeg</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+                        <input type="hidden" name="language" value="nl">
+                        <input type="hidden" name="form_duration" value="" data-form-duration>
+                        <div class="form-row form-row-two">
+                            <div class="field"><label for="first-name">Voornaam <span aria-hidden="true">*</span></label><input id="first-name" name="first_name" type="text" autocomplete="given-name" maxlength="80" required aria-describedby="first-name-error"><p class="field-error" id="first-name-error" data-error-for="first-name"></p></div>
+                            <div class="field"><label for="last-name">Achternaam <span aria-hidden="true">*</span></label><input id="last-name" name="last_name" type="text" autocomplete="family-name" maxlength="80" required aria-describedby="last-name-error"><p class="field-error" id="last-name-error" data-error-for="last-name"></p></div>
+                        </div>
+                        <div class="form-row form-row-two">
+                            <div class="field"><label for="email">E-mail <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" inputmode="email" autocomplete="email" maxlength="254" required aria-describedby="email-error"><p class="field-error" id="email-error" data-error-for="email"></p></div>
+                            <div class="field"><label for="phone">Telefoon</label><input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="40" aria-describedby="phone-error"><p class="field-error" id="phone-error" data-error-for="phone"></p></div>
+                        </div>
+                        <div class="field"><label for="organization">Organisatie</label><input id="organization" name="organization" type="text" autocomplete="organization" maxlength="160" aria-describedby="organization-error"><p class="field-error" id="organization-error" data-error-for="organization"></p></div>
+                        <div class="field recipient-field">
+                            <label for="recipient">Ontvanger <span aria-hidden="true">*</span></label>
+                            <div class="select-wrap"><select id="recipient" name="recipient" required aria-describedby="recipient-hint recipient-error" data-recipient-select><option value="general">Algemene vraag</option><option value="kadir">Kadir Demir — Directie</option><option value="selim">Selim Ardağ — Inclusie &amp; Community</option><option value="mehmet">Mehmet Namni — Europese projecten</option></select></div>
+                            <p class="field-hint" id="recipient-hint">Je bericht wordt veilig naar de juiste persoon doorgestuurd.</p><p class="field-error" id="recipient-error" data-error-for="recipient"></p>
+                        </div>
+                        <div class="contact-card contact-card-mobile" data-contact-card-mobile aria-live="polite"></div>
+                        <div class="field"><label for="subject">Onderwerp <span aria-hidden="true">*</span></label><input id="subject" name="subject" type="text" maxlength="160" required aria-describedby="subject-error"><p class="field-error" id="subject-error" data-error-for="subject"></p></div>
+                        <div class="field"><label for="message">Bericht <span aria-hidden="true">*</span></label><textarea class="resize-none" id="message" name="message" rows="7" maxlength="6000" required aria-describedby="message-count message-error"></textarea><div class="field-meta"><p class="field-error" id="message-error" data-error-for="message"></p><p id="message-count" data-message-count>0 / 6 000</p></div></div>
+                        <div class="field">
+                            <span class="field-label" id="attachment-label">Bijlage</span>
+                            <div class="upload-zone" data-upload-zone><input class="upload-input" id="attachment" name="attachment" type="file" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/jpeg,image/png" aria-labelledby="attachment-label upload-title" aria-describedby="upload-help attachment-error" data-upload-input><span class="upload-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 16V4m0 0L7.5 8.5M12 4l4.5 4.5M5 14v4.5A1.5 1.5 0 006.5 20h11a1.5 1.5 0 001.5-1.5V14"></path></svg></span><span class="upload-copy"><strong id="upload-title">Sleep een bestand hierheen of blader</strong><small id="upload-help">PDF, DOC, DOCX, JPG of PNG — maximaal 5 MB</small></span></div>
+                            <div class="upload-file" hidden data-upload-file><span class="upload-file-icon" aria-hidden="true">DOC</span><span><strong data-file-name></strong><small data-file-size></small></span><button type="button" aria-label="Bijlage verwijderen" data-file-remove>Verwijderen</button></div><p class="field-error" id="attachment-error" data-error-for="attachment"></p>
+                        </div>
+                        <div class="consent-field"><input id="consent" name="consent" type="checkbox" value="1" required aria-describedby="consent-error"><label for="consent">Ik ga ermee akkoord dat de ingevulde gegevens worden gebruikt om mijn vraag te beantwoorden. <span aria-hidden="true">*</span></label></div><p class="field-error consent-error" id="consent-error" data-error-for="consent"></p>
+                        <div class="form-submit-row"><button class="button button-primary submit-button" type="submit" data-submit-button><span data-submit-label>Bericht verzenden</span><span class="button-arrow" aria-hidden="true">→</span><span class="submit-spinner" aria-hidden="true"></span></button><p class="form-status" role="status" aria-live="polite" data-form-status></p></div>
+                    </form>
+                </div>
+                <aside class="contact-aside" aria-label="Geselecteerde ontvanger" data-contact-reveal><div class="contact-card" data-contact-card aria-live="polite"></div><p class="contact-aside-note"><span aria-hidden="true">↗</span> Elk bericht gaat naar de juiste contactpersoon op basis van je keuze.</p></aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-main"><div class="footer-brand"><img src="/bred-test/assets/images/branding/logo-bred-horizontal.png" width="360" height="120" loading="lazy" alt="BRED — Brussels Education &amp; Development"><p>Onderwijs, inclusie, Europese samenwerking en STEM in Brussel.</p></div><nav class="footer-navigation" aria-label="Voettekstnavigatie"><h2>Ontdek</h2><ul><li><a href="/bred-test/nl/over-ons/">Over ons</a></li><li><a href="/bred-test/nl/team/">Ons team</a></li><li><a href="/bred-test/nl/projecten/">Onze projecten</a></li><li><a href="/bred-test/nl/contact/">Contact</a></li></ul></nav><div class="footer-contact"><h2>Contact</h2><a href="mailto:info@edubrussels.org">info@edubrussels.org</a><p>Brussel, België</p><a class="footer-social" href="https://www.instagram.com/bredassociation" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.4" cy="6.6" r=".8" fill="currentColor" stroke="none"></circle></svg>BRED op Instagram<span class="visually-hidden"> — opent in een nieuw tabblad</span></a></div></div>
+        <div class="container footer-bottom"><p>© <span data-current-year>2026</span> BRED — Brussels Education &amp; Development</p><p class="footer-credit"><img src="/bred-test/assets/images/branding/haskay-digital/haskay-digital-icon-96.webp" width="96" height="95" loading="lazy" decoding="async" alt="">Website door <a href="https://www.instagram.com/haskaydigital" target="_blank" rel="noopener noreferrer">Haskay Digital<span class="visually-hidden"> — Instagram, opent in een nieuw tabblad</span></a></p><a href="#main-content">Naar boven <span aria-hidden="true">↑</span></a></div>
+    </footer>
+    <script src="/bred-test/assets/js/vendor/gsap.min.js" defer></script><script src="/bred-test/assets/js/vendor/ScrollTrigger.min.js" defer></script><script src="/bred-test/js/main.js" defer></script><script src="/bred-test/js/contact.js" defer></script>
+</body>
+</html>
